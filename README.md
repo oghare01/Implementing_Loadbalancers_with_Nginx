@@ -18,3 +18,11 @@ Similarly, the security inbound rule for Webserver 2 was modified to allow traff
 
 3. Installation of Apache Webserver
 
+Next, both instances were entered into via SSH on the terminal and Apache was installed on both machines as shown in the following figures
+
+![Apache installed successfully on Webserver 1](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/4ce10004-706f-47e7-b507-1a495a86e8e1)
+
+![Apache installed successfully on Webserver 2](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/183798cd-46e2-47ad-9935-44eb8746f4a8)
+
+4. Configuring Apace to server content on port 8000
+
