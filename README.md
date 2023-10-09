@@ -36,4 +36,21 @@ as can be seen in the diagram below
 ![VirtualHost modified to 8000 on Webserver 1](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/5254565f-aa4f-46e0-82ec-371a03babc02)
 
 
+5. Html content creation
+
+Having set up the preliminary work, a html file for the content was created and the file ownership was modified 
+The default html was replaced with the newly created html file and Apache was restarted 
+The webserver was then tested on a browser and the results showed a successful implementation of the project to this point 
+
+![Webserver 1 running successfully ](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/489c36e1-a90a-4ba2-b3ae-099eb6676e56)
+
+6. Installation of Nginx on Webserver 2
+
+With the work on Webserver 1 succeffuly implemented, Webserver 2 was opened via SSH and Nginx was installed via the CLI 
+
+This was then tested and the result obtained is shown below 
+
+![nginx installed successfully on Webserver 2](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/774eca05-0791-4d53-b4c9-a7eab6501815)
+
+7. Nginx configuration
 
