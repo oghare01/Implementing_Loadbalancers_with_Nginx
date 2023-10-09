@@ -16,13 +16,24 @@ Similarly, the security inbound rule for Webserver 2 was modified to allow traff
 
 ![Webserver 2 inbound rule modification](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/19a1ff90-1ad4-4d3e-9900-1bfd68eeb80a)
 
-3. Installation of Apache Webserver
+3. Installation of Apache Webserver 1
 
-Next, both instances were entered into via SSH on the terminal and Apache was installed on both machines as shown in the following figures
+Next, the first webserver was entered into via SSH on the terminal and Apache was installed on the machine as shown in the following figure
 
 ![Apache installed successfully on Webserver 1](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/4ce10004-706f-47e7-b507-1a495a86e8e1)
 
-![Apache installed successfully on Webserver 2](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/183798cd-46e2-47ad-9935-44eb8746f4a8)
 
 4. Configuring Apace to server content on port 8000
+
+To enable Apache server content on port 8000 the port configuration file was modified to include a listening port of 8000 as shown below
+
+![Listen directive for port 8000 added](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/6577a2aa-7bb6-4ad9-af14-50a1369fd01d)
+
+This was done to be consistent with the earlier set up inbound rule on Port 8000 enabled for Webserver 1. The virtualhost was also modified from 80 to 8000 for consistency
+
+as can be seen in the diagram below
+
+![VirtualHost modified to 8000 on Webserver 1](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/5254565f-aa4f-46e0-82ec-371a03babc02)
+
+
 
