@@ -72,5 +72,5 @@ The result is shown below
 
 ![Browser test for nginx](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/dca07a5b-b0c2-456f-af71-37d9c7a11be8)
 
-The result didn't match the expected result. Hence further work and trouble shooting would be carried out to see why the page did not load the content earlier display n webserver 1
+The result didn't match the expected result. Hence further work and trouble shooting would be carried out to see why the page did not load the content earlier display on webserver 1
 
