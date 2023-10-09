@@ -54,3 +54,23 @@ This was then tested and the result obtained is shown below
 
 7. Nginx configuration
 
+Next Nginx was configured to act as a load balancer. This was done by modifying the server IP addressed to the IP addresses of the EC2 instances provisioned as shown below 
+
+![nginx conf](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/d9e80032-fef6-4fb2-bf88-317b210cff87)
+
+8. Nginx test
+
+Once configured. Nginx was tested and the results showed successful configuration 
+
+![Nginx tested successfully ](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/a13c399d-6028-4226-a646-454e1045a67a)
+
+9. Restart and browser testing
+
+With the earlier steps shown to be successful. Nginx was restarted and tested on a browser
+
+The result is shown below
+
+![Browser test for nginx](https://github.com/oghare01/Implementing_Loadbalancers_with_Nginx/assets/141191975/dca07a5b-b0c2-456f-af71-37d9c7a11be8)
+
+The result didn't match the expected result. Hence further work and trouble shooting would be carried out to see why the page did not load the content earlier display n webserver 1
+
